@@ -11,31 +11,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="http://127.0.0.1:5500/main.html"><span class="Синяя часть лого">Web</span><span class="черная часть лого">Studio</span></a>
+    <!--Шапка сайта-->
+    <header class="header">
+
+        <a href="./main.html" class="logo"><span class="logo-blue">Web</span><span class="logo-black">Studio</span></a>
+        <nav class="nav-main">
             <ul>
-                <li><a href="http://127.0.0.1:5500/main.html">Студия</a></li>
+                <li><a href="./main.html">Студия</a></li>
                 <li><a href="./portfolio/index.html">Портфолио</a></li>
                 <li><a href="tel:+380961111111">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-    
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+
+        <div class="header-contacts">
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+
+
     </header>
     <main>
         <nav>
          
             <ul class="list-of-buttons">
-                <li><button>Все</button></li>
-                <li><button> Веб-сайты</button></li>
-                <li><button> Приложения </button></li>
-                <li><button> Дизайн</button></li>
-                <li><button> Маркетинг</button></li>
+                <li><button><span class="text-button"> Все</span></button></li>
+                <li><button><span class="text-button"> Веб-сайты</span></button></li>
+                <li><button><span class="text-button"> Приложения </span></button></li>
+                <li><button><span class="text-button"> Дизайн</span></button></li>
+                <li><button><span class="text-button">Маркетинг</span></button></li>
             </ul>
         </nav>
         
@@ -82,13 +89,14 @@
         </Section>
 
     </main>
-    <footer>
-        <a href="http://127.0.0.1:5500/main.html"><span class="Синяя часть лого">Web</span><span class="черная часть лого">Studio</span></a>
-        <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <br><a href="mailto:info@example.com">info@example.com</a>
-            <br><a href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
-    </footer>
+        <!--Подвал-->
+        <footer class="footer">
+            <a href="./main.html" class="logo"><span class="logo-blue">Web</span><span class="logo-White">Studio</span></a>
+            <address class="address">
+                <p class="actual-address">г. Киев, пр-т Леси Украинки, 26</p>
+                <br><a href="mailto:info@example.com" class="contacts">info@example.com</a>
+                <br><a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
+            </address>
+        </footer>
 </body>
 </html>

@@ -1,2 +1,28 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+}
 body {
+  background-color: #ffffff;
+}
+/* Логотип */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: #212121;
+}
+/* Навигация */
+.header {
+  color: #000;
+  text-decoration: none;
 }

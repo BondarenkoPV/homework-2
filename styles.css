@@ -51,6 +51,9 @@ body {
 .header-contacts :focus {
   color: #2196f3;
 }
+.header .studio {
+  color: #2196f3;
+}
 
 /* Секция герой */
 .hero-section {

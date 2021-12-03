@@ -51,6 +51,9 @@ body {
 .header-contacts :focus {
   color: #2196f3;
 }
+.header .portfolio {
+  color: #2196f3;
+}
 
 /* кнопки */
 .list-of-buttons button:hover {

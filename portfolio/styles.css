@@ -75,7 +75,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  font-family: var(--title-text-color);
+  color: #212121;
 }
 .list-of-buttons span:hover,
 :focus {

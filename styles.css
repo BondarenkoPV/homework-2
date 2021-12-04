@@ -92,9 +92,9 @@ body {
 }
 .text-title {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   color: #212121;
 }
 .description {

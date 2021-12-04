@@ -10,6 +10,7 @@
 }
 body {
   background: var(--primary-background);
+  font-family: Roboto;
 }
 /* Логотип */
 .logo {
@@ -39,6 +40,10 @@ body {
   line-height: 1.14;
   color: #212121;
 }
+.header-contacts li a {
+  color: #757575;
+}
+
 .nav-main :hover {
   color: #2196f3;
 }
@@ -86,15 +91,13 @@ body {
   list-style: none;
 }
 .text-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  font-family: var(--title-text-color);
+  color: #212121;
 }
 .description {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -117,7 +120,6 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  font-family: var(--title-text-color);
 }
 .section-command ul {
   list-style: none;
@@ -150,5 +152,6 @@ body {
   color: #ffffff;
 }
 .contacts {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }

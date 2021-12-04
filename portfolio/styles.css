@@ -9,6 +9,7 @@
   --additional-background: #f5f4fa;
 }
 body {
+  font-family: Roboto;
   background: var(--primary-background);
 }
 /* Логотип */
@@ -38,6 +39,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+}
+.header-contacts li a {
+  color: #757575;
 }
 .nav-main :hover {
   color: #2196f3;
@@ -127,5 +131,6 @@ body {
   color: #ffffff;
 }
 .contacts {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }

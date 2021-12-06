@@ -60,7 +60,7 @@ body {
 }
 
 /* кнопки */
-.maine-section-portfolio .list-of-buttons li button {
+.list-of-buttons li button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -68,7 +68,7 @@ body {
   line-height: 1.62;
   color: #212121;
 }
-.maine-section-portfolio .list-of-buttons li {
+.maine-section-portfolio li {
   list-style: none;
 }
 .list-of-buttons button:hover {

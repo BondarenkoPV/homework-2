@@ -60,14 +60,7 @@ body {
 }
 
 /* кнопки */
-.list-of-buttons button:hover {
-  background: #2196f3;
-}
-.list-of-buttons button:focus {
-  background: #2196f3;
-}
-.list-of-buttons {
-  list-style: none;
+.maine-section-portfolio .list-of-buttons li button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -75,13 +68,23 @@ body {
   line-height: 1.62;
   color: #212121;
 }
-.list-of-buttons :hover,
+.maine-section-portfolio .list-of-buttons li {
+  list-style: none;
+}
+.list-of-buttons button:hover {
+  background: #2196f3;
+}
+.list-of-buttons button:focus {
+  background: #2196f3;
+}
+
+.list-of-buttons li button:hover,
 :focus {
   color: #ffffff;
 }
 
 /* main section */
-.maine-portfolio ul {
+.maine-portfolio {
   list-style: none;
 }
 .maine-portfolio a {
